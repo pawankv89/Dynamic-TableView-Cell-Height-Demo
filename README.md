@@ -8,10 +8,8 @@
 ------------
 Added Some screens here.
 
-![](https://github.com/pawankv89/Dynamic-TableView-Cell-Height-Demo/blob/master/images/screen_0.png)
 ![](https://github.com/pawankv89/Dynamic-TableView-Cell-Height-Demo/blob/master/images/screen_1.png)
-![](https://github.com/pawankv89/Dynamic-TableView-Cell-Height-Demo/blob/master/images/screen_2.jpeg)
-
+![](https://github.com/pawankv89/Dynamic-TableView-Cell-Height-Demo/blob/master/images/screen_2.png)
 
 
 
