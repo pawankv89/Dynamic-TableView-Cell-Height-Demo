@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D44A7E982250C40700297BD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7E972250C40700297BD2 /* AppDelegate.swift */; };
+		D44A7E9A2250C40700297BD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7E992250C40700297BD2 /* ViewController.swift */; };
+		D44A7E9D2250C40700297BD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44A7E9B2250C40700297BD2 /* Main.storyboard */; };
+		D44A7E9F2250C40800297BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D44A7E9E2250C40800297BD2 /* Assets.xcassets */; };
+		D44A7EA22250C40800297BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44A7EA02250C40800297BD2 /* LaunchScreen.storyboard */; };
+		D44A7EAD2250C40800297BD2 /* DynamicCellHeight_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7EAC2250C40800297BD2 /* DynamicCellHeight_DemoTests.swift */; };
+		D44A7EB82250C40800297BD2 /* DynamicCellHeight_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7EB72250C40800297BD2 /* DynamicCellHeight_DemoUITests.swift */; };
+		D44A7EC72250C43300297BD2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7EC52250C43300297BD2 /* MovieCell.swift */; };
+		D44A7EC82250C43300297BD2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7EC52250C43300297BD2 /* MovieCell.swift */; };
+		D44A7EC92250C43300297BD2 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7EC52250C43300297BD2 /* MovieCell.swift */; };
+		D44A7ECA2250C43300297BD2 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D44A7EC62250C43300297BD2 /* MovieCell.xib */; };
+		D44A7ECB2250C43300297BD2 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D44A7EC62250C43300297BD2 /* MovieCell.xib */; };
+		D44A7ECC2250C43300297BD2 /* MovieCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D44A7EC62250C43300297BD2 /* MovieCell.xib */; };
+		D44A7ECE2250C7E300297BD2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7ECD2250C7E300297BD2 /* Movie.swift */; };
+		D44A7ECF2250C7E300297BD2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7ECD2250C7E300297BD2 /* Movie.swift */; };
+		D44A7ED02250C7E300297BD2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7ECD2250C7E300297BD2 /* Movie.swift */; };
+		D44A7ED22250C80900297BD2 /* MoviesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7ED12250C80900297BD2 /* MoviesDataSource.swift */; };
+		D44A7ED32250C80900297BD2 /* MoviesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7ED12250C80900297BD2 /* MoviesDataSource.swift */; };
+		D44A7ED42250C80900297BD2 /* MoviesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44A7ED12250C80900297BD2 /* MoviesDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D44A7EA92250C40800297BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D44A7E8C2250C40700297BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44A7E932250C40700297BD2;
+			remoteInfo = "DynamicCellHeight Demo";
+		};
+		D44A7EB42250C40800297BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D44A7E8C2250C40700297BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D44A7E932250C40700297BD2;
+			remoteInfo = "DynamicCellHeight Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D44A7E942250C40700297BD2 /* DynamicCellHeight Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DynamicCellHeight Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44A7E972250C40700297BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D44A7E992250C40700297BD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D44A7E9C2250C40700297BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D44A7E9E2250C40800297BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D44A7EA12250C40800297BD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D44A7EA32250C40800297BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44A7EA82250C40800297BD2 /* DynamicCellHeight DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DynamicCellHeight DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44A7EAC2250C40800297BD2 /* DynamicCellHeight_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCellHeight_DemoTests.swift; sourceTree = "<group>"; };
+		D44A7EAE2250C40800297BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44A7EB32250C40800297BD2 /* DynamicCellHeight DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DynamicCellHeight DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44A7EB72250C40800297BD2 /* DynamicCellHeight_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicCellHeight_DemoUITests.swift; sourceTree = "<group>"; };
+		D44A7EB92250C40800297BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D44A7EC52250C43300297BD2 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		D44A7EC62250C43300297BD2 /* MovieCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieCell.xib; sourceTree = "<group>"; };
+		D44A7ECD2250C7E300297BD2 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		D44A7ED12250C80900297BD2 /* MoviesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesDataSource.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D44A7E912250C40700297BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44A7EA52250C40800297BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44A7EB02250C40800297BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D44A7E8B2250C40700297BD2 = {
+			isa = PBXGroup;
+			children = (
+				D44A7E962250C40700297BD2 /* DynamicCellHeight Demo */,
+				D44A7EAB2250C40800297BD2 /* DynamicCellHeight DemoTests */,
+				D44A7EB62250C40800297BD2 /* DynamicCellHeight DemoUITests */,
+				D44A7E952250C40700297BD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D44A7E952250C40700297BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D44A7E942250C40700297BD2 /* DynamicCellHeight Demo.app */,
+				D44A7EA82250C40800297BD2 /* DynamicCellHeight DemoTests.xctest */,
+				D44A7EB32250C40800297BD2 /* DynamicCellHeight DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D44A7E962250C40700297BD2 /* DynamicCellHeight Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D44A7ECD2250C7E300297BD2 /* Movie.swift */,
+				D44A7ED12250C80900297BD2 /* MoviesDataSource.swift */,
+				D44A7E972250C40700297BD2 /* AppDelegate.swift */,
+				D44A7E992250C40700297BD2 /* ViewController.swift */,
+				D44A7EC52250C43300297BD2 /* MovieCell.swift */,
+				D44A7EC62250C43300297BD2 /* MovieCell.xib */,
+				D44A7E9B2250C40700297BD2 /* Main.storyboard */,
+				D44A7E9E2250C40800297BD2 /* Assets.xcassets */,
+				D44A7EA02250C40800297BD2 /* LaunchScreen.storyboard */,
+				D44A7EA32250C40800297BD2 /* Info.plist */,
+			);
+			path = "DynamicCellHeight Demo";
+			sourceTree = "<group>";
+		};
+		D44A7EAB2250C40800297BD2 /* DynamicCellHeight DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D44A7EAC2250C40800297BD2 /* DynamicCellHeight_DemoTests.swift */,
+				D44A7EAE2250C40800297BD2 /* Info.plist */,
+			);
+			path = "DynamicCellHeight DemoTests";
+			sourceTree = "<group>";
+		};
+		D44A7EB62250C40800297BD2 /* DynamicCellHeight DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D44A7EB72250C40800297BD2 /* DynamicCellHeight_DemoUITests.swift */,
+				D44A7EB92250C40800297BD2 /* Info.plist */,
+			);
+			path = "DynamicCellHeight DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D44A7E932250C40700297BD2 /* DynamicCellHeight Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44A7EBC2250C40800297BD2 /* Build configuration list for PBXNativeTarget "DynamicCellHeight Demo" */;
+			buildPhases = (
+				D44A7E902250C40700297BD2 /* Sources */,
+				D44A7E912250C40700297BD2 /* Frameworks */,
+				D44A7E922250C40700297BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DynamicCellHeight Demo";
+			productName = "DynamicCellHeight Demo";
+			productReference = D44A7E942250C40700297BD2 /* DynamicCellHeight Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D44A7EA72250C40800297BD2 /* DynamicCellHeight DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44A7EBF2250C40800297BD2 /* Build configuration list for PBXNativeTarget "DynamicCellHeight DemoTests" */;
+			buildPhases = (
+				D44A7EA42250C40800297BD2 /* Sources */,
+				D44A7EA52250C40800297BD2 /* Frameworks */,
+				D44A7EA62250C40800297BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44A7EAA2250C40800297BD2 /* PBXTargetDependency */,
+			);
+			name = "DynamicCellHeight DemoTests";
+			productName = "DynamicCellHeight DemoTests";
+			productReference = D44A7EA82250C40800297BD2 /* DynamicCellHeight DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D44A7EB22250C40800297BD2 /* DynamicCellHeight DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D44A7EC22250C40800297BD2 /* Build configuration list for PBXNativeTarget "DynamicCellHeight DemoUITests" */;
+			buildPhases = (
+				D44A7EAF2250C40800297BD2 /* Sources */,
+				D44A7EB02250C40800297BD2 /* Frameworks */,
+				D44A7EB12250C40800297BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D44A7EB52250C40800297BD2 /* PBXTargetDependency */,
+			);
+			name = "DynamicCellHeight DemoUITests";
+			productName = "DynamicCellHeight DemoUITests";
+			productReference = D44A7EB32250C40800297BD2 /* DynamicCellHeight DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D44A7E8C2250C40700297BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Pawan Kumar";
+				TargetAttributes = {
+					D44A7E932250C40700297BD2 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					D44A7EA72250C40800297BD2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = D44A7E932250C40700297BD2;
+					};
+					D44A7EB22250C40800297BD2 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = D44A7E932250C40700297BD2;
+					};
+				};
+			};
+			buildConfigurationList = D44A7E8F2250C40700297BD2 /* Build configuration list for PBXProject "DynamicCellHeight Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D44A7E8B2250C40700297BD2;
+			productRefGroup = D44A7E952250C40700297BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D44A7E932250C40700297BD2 /* DynamicCellHeight Demo */,
+				D44A7EA72250C40800297BD2 /* DynamicCellHeight DemoTests */,
+				D44A7EB22250C40800297BD2 /* DynamicCellHeight DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D44A7E922250C40700297BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44A7ECA2250C43300297BD2 /* MovieCell.xib in Resources */,
+				D44A7EA22250C40800297BD2 /* LaunchScreen.storyboard in Resources */,
+				D44A7E9F2250C40800297BD2 /* Assets.xcassets in Resources */,
+				D44A7E9D2250C40700297BD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44A7EA62250C40800297BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44A7ECB2250C43300297BD2 /* MovieCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44A7EB12250C40800297BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44A7ECC2250C43300297BD2 /* MovieCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D44A7E902250C40700297BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44A7ECE2250C7E300297BD2 /* Movie.swift in Sources */,
+				D44A7EC72250C43300297BD2 /* MovieCell.swift in Sources */,
+				D44A7ED22250C80900297BD2 /* MoviesDataSource.swift in Sources */,
+				D44A7E9A2250C40700297BD2 /* ViewController.swift in Sources */,
+				D44A7E982250C40700297BD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44A7EA42250C40800297BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44A7EC82250C43300297BD2 /* MovieCell.swift in Sources */,
+				D44A7ED32250C80900297BD2 /* MoviesDataSource.swift in Sources */,
+				D44A7EAD2250C40800297BD2 /* DynamicCellHeight_DemoTests.swift in Sources */,
+				D44A7ECF2250C7E300297BD2 /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D44A7EAF2250C40800297BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44A7EC92250C43300297BD2 /* MovieCell.swift in Sources */,
+				D44A7ED42250C80900297BD2 /* MoviesDataSource.swift in Sources */,
+				D44A7EB82250C40800297BD2 /* DynamicCellHeight_DemoUITests.swift in Sources */,
+				D44A7ED02250C7E300297BD2 /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D44A7EAA2250C40800297BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44A7E932250C40700297BD2 /* DynamicCellHeight Demo */;
+			targetProxy = D44A7EA92250C40800297BD2 /* PBXContainerItemProxy */;
+		};
+		D44A7EB52250C40800297BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D44A7E932250C40700297BD2 /* DynamicCellHeight Demo */;
+			targetProxy = D44A7EB42250C40800297BD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D44A7E9B2250C40700297BD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44A7E9C2250C40700297BD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D44A7EA02250C40800297BD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D44A7EA12250C40800297BD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D44A7EBA2250C40800297BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D44A7EBB2250C40800297BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D44A7EBD2250C40800297BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DynamicCellHeight Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.DynamicCellHeight-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D44A7EBE2250C40800297BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DynamicCellHeight Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.DynamicCellHeight-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D44A7EC02250C40800297BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DynamicCellHeight DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.DynamicCellHeight-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicCellHeight Demo.app/DynamicCellHeight Demo";
+			};
+			name = Debug;
+		};
+		D44A7EC12250C40800297BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DynamicCellHeight DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.DynamicCellHeight-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicCellHeight Demo.app/DynamicCellHeight Demo";
+			};
+			name = Release;
+		};
+		D44A7EC32250C40800297BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DynamicCellHeight DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.DynamicCellHeight-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DynamicCellHeight Demo";
+			};
+			name = Debug;
+		};
+		D44A7EC42250C40800297BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "DynamicCellHeight DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pk.DynamicCellHeight-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "DynamicCellHeight Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D44A7E8F2250C40700297BD2 /* Build configuration list for PBXProject "DynamicCellHeight Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44A7EBA2250C40800297BD2 /* Debug */,
+				D44A7EBB2250C40800297BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44A7EBC2250C40800297BD2 /* Build configuration list for PBXNativeTarget "DynamicCellHeight Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44A7EBD2250C40800297BD2 /* Debug */,
+				D44A7EBE2250C40800297BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44A7EBF2250C40800297BD2 /* Build configuration list for PBXNativeTarget "DynamicCellHeight DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44A7EC02250C40800297BD2 /* Debug */,
+				D44A7EC12250C40800297BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D44A7EC22250C40800297BD2 /* Build configuration list for PBXNativeTarget "DynamicCellHeight DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D44A7EC32250C40800297BD2 /* Debug */,
+				D44A7EC42250C40800297BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D44A7E8C2250C40700297BD2 /* Project object */;
+}
